@@ -19,7 +19,7 @@ function App() {
     fetchData();
   }, []);
   return (
-    <div className="m-20 flex  justify-center items-center">
+    <>
       <div className="flex flex-col items-center h-4/5">
         <header className="w-4/5 flex  justify-center">
           <img src={Background} alt="" />
@@ -27,7 +27,7 @@ function App() {
 
         <main className="w-4/5 h-[800px] bg-black">d</main>
       </div>
-      <div className="absolute bg-[#1c1d1f]  top-56 left-96 right-96 rounded-xl pb-5 ">
+      <div className="absolute bg-[#1c1d1f]  top-44 left-96 right-96 rounded-xl pb-5 ">
         <div className="flex flex-col items-center mt-16 mb-6">
           <h1 className="text-[32px] text-white text-center mb-3">
             Our Collection
@@ -59,7 +59,7 @@ function App() {
           ))}
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
