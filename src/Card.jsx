@@ -18,7 +18,9 @@ function Card({ id, name, price, image, popular, available, rating, votes }) {
       <div className="flex w-3/4 justify-between mt-3">
         <p className="font-bold text-white">{name}</p>
 
-        <p className="bg-[#BEE3CC] px-2 text-xs rounded-md">{price}</p>
+        <p className="bg-[#BEE3CC] px-2 flex items-center text-xs font-bold rounded-md">
+          {price}
+        </p>
       </div>
       <div className="flex text-left justify-between w-3/4">
         <div className="flex ">
