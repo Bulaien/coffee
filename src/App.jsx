@@ -19,7 +19,7 @@ function App() {
     fetchData();
   }, []);
   return (
-    <div className="m-10 flex  justify-center items-center">
+    <div className="m-20 flex  justify-center items-center">
       <div className="flex flex-col items-center h-4/5">
         <header className="w-4/5 flex  justify-center">
           <img src={Background} alt="" />
@@ -27,12 +27,12 @@ function App() {
 
         <main className="w-4/5 h-[800px] bg-black">d</main>
       </div>
-      <div className="absolute bg-[#1c1d1f]  top-56 left-96 rounded-xl pb-5 ">
-        <div className="flex flex-col items-center mt-16 mb-24">
-          <h1 className="text-3xl text-white text-center mb-3">
+      <div className="absolute bg-[#1c1d1f]  top-56 left-96 right-96 rounded-xl pb-5 ">
+        <div className="flex flex-col items-center mt-16 mb-6">
+          <h1 className="text-[32px] text-white text-center mb-3">
             Our Collection
           </h1>
-          <p className="text-gray-300  w-1/2 text-center">
+          <p className="text-[#6F757C]  w-[450px] text-center text-[16px]">
             Introducing our Coffee Collection, a selection of unique coffees
             from different roast types and origins, expertly roasted in small
             batches and shipped fresh weekly.
