@@ -21,13 +21,13 @@ function App() {
   return (
     <>
       <div className="flex flex-col items-center h-4/5">
-        <header className="w-4/5 flex  justify-center">
+        <header className="w-screen flex  justify-center">
           <img src={Background} alt="" />
         </header>
 
-        <main className="w-4/5 h-[800px] bg-black">d</main>
+        <main className="w-screen h-[800px] bg-black"></main>
       </div>
-      <div className="absolute bg-[#1c1d1f]  top-44 left-96 right-96 rounded-xl pb-5 ">
+      <div className="absolute bg-[#1c1d1f]  top-56 left-96 right-96 rounded-xl pb-5 ">
         <div className="flex flex-col items-center mt-16 mb-6">
           <h1 className="text-[32px] text-white text-center mb-3">
             Our Collection
