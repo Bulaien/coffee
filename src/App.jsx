@@ -19,7 +19,7 @@ function App() {
     fetchData();
   }, []);
   return (
-    <>
+    <div className="m-10 flex  justify-center items-center">
       <div className="flex flex-col items-center h-4/5">
         <header className="w-4/5 flex  justify-center">
           <img src={Background} alt="" />
@@ -59,7 +59,7 @@ function App() {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
