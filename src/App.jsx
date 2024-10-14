@@ -25,7 +25,10 @@ function App() {
           <img src={Background} alt="" />
         </header>
 
-        <main className="w-screen h-[800px] bg-black"></main>
+        <main
+          className="w-screen
+         h-[800px] bg-black"
+        ></main>
       </div>
       <div className="absolute bg-[#1c1d1f]  top-56 left-96 right-96 rounded-xl pb-5 ">
         <div className="flex flex-col items-center mt-16 mb-6">
